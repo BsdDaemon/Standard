@@ -57,8 +57,6 @@ namespace Standard.Helper
             return Encoding.UTF8.GetString(resultArray);
         }
 
-
-
         public void CreatePrivateKey(int length = 24)
         {
             const string validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#";
